@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Ensure we are being ran as root
 if [ $(id -u) -ne 0 ]; then
 	echo "This script must be ran as root"
